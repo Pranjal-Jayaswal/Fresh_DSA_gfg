@@ -3,7 +3,7 @@ package searching;
 public class sqRootOrFloor {
 	public static void main(String args[]) {
 
-		System.out.println(sqRootFloor(35));
+		System.out.println(sqRootFloor(10));
 
 	}
 
