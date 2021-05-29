@@ -10,16 +10,26 @@ public class binaryRepresentation {
 	}
 
 	static void printt(int n) {
-		StringBuilder a = new StringBuilder("");
-		while (n != 0) {
-			if ((n & 1) == 1) {
-				a.append(1);
-
-			} else
-				a.append(0);
-			n = n / 2;
+		int ans;
+		long i;
+		System.out.print("0");
+		for (i = 1 << 30; i > 0; i = i / 2) {
+			if ((n & i) != 0) {
+				System.out.print("1");
+			} else {
+				System.out.print("0");
+			}
 		}
-		a.reverse();
-		System.out.println(a);
+//		StringBuilder a = new StringBuilder("");
+//		while (n != 0) {
+//			if ((n & 1) == 1) {
+//				a.append(1);
+//
+//			} else
+//				a.append(0);
+//			n = n / 2;
+//		}
+//		a.reverse();
+//		System.out.println(a);
 	}
 }

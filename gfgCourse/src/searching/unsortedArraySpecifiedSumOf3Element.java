@@ -20,7 +20,6 @@ public class unsortedArraySpecifiedSumOf3Element {
 					return true;
 				} else if (A[i] + A[l] + A[r] < sum)
 					l++;
-
 				else
 					r--;
 			}
