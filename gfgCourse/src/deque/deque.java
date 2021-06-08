@@ -4,6 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Iterator;
 
 public class deque {
+
+//	can act as both stack and queue
+
 	public static void main(String args[]) {
 		ArrayDeque<Integer> ad = new ArrayDeque<Integer>();
 
