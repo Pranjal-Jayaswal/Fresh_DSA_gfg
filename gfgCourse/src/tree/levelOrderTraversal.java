@@ -26,6 +26,7 @@ public class levelOrderTraversal {
 	public static void printLevel(Node root) {
 		if (root == null)
 			return;
+
 		Queue<Node> q = new LinkedList<>();
 		q.add(root);
 		while (q.isEmpty() == false) {
