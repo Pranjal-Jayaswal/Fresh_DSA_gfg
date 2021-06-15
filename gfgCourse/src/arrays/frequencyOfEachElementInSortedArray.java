@@ -16,6 +16,11 @@ public class frequencyOfEachElementInSortedArray {
 				freq = 1;
 				temp = arr[i];
 			}
+//			read
+//			read
+//			read
+//			read//			read
+//			read
 			if (i == arr.length - 1) {
 				System.out.println(temp + " appeared " + freq + " times");
 			}

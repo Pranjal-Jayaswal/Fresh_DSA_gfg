@@ -2,7 +2,12 @@ package basics;
 
 import java.util.Scanner;
 
-public class printAllOddNoTilln {
+public class printAllPrimeNoTilln {
+//	good question
+//	good question
+//	good question
+//	good question
+
 	public static void main(String args[]) {
 		Scanner kb = new Scanner(System.in);
 		int a = kb.nextInt();

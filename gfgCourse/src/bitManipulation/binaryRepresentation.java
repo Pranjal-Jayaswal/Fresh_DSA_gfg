@@ -10,11 +10,11 @@ public class binaryRepresentation {
 	}
 
 	static void printt(int n) {
-		int ans;
+
 		long i;
 		System.out.print("0");
 		for (i = 1 << 30; i > 0; i = i / 2) {
-			if ((n & i) != 0) {
+			if ((n & i) == 1) {
 				System.out.print("1");
 			} else {
 				System.out.print("0");

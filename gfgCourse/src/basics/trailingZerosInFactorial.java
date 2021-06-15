@@ -8,10 +8,11 @@ public class trailingZerosInFactorial {
 		int n = kb.nextInt();
 		int ans = zeross(n);
 		System.out.println(ans);
+		kb.close();
 	}
 
 	static int zeross(int n) {
-		int temp = 0, res = 0, i = 5, sum = 0;
+		int temp = 0, i = 5, sum = 0;
 		while (n > i) {
 			temp = n / i;
 			sum += temp;
